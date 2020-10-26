@@ -3,7 +3,7 @@
 A Gatsby source plugin to pull data from Canonic APIs. Once installed, your API can be queried from within Gatsby using GraphQL.
 
 ![Release](https://github.com/canonic-dev/gatsby-source-canonic/workflows/Release/badge.svg?branch=main)
-[![npm version](https://badge.fury.io/js/gatsby-source-canonic.svg)](https://badge.fury.io/js/gatsby-source-canonic)
+[![npm version](https://badge.fury.io/js/gatsby-source-canonic.svg)](https://www.npmjs.com/package/gatsby-source-canonic)
 
 
 ### Install
