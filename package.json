@@ -1,0 +1,31 @@
+{
+  "name": "gatsby-source-canonic",
+  "version": "1.0.0",
+  "description": "A Canonic as a source plugin for Gatsby",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "prepare": "NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/canonic-dev/gatsby-source-canonic.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "author": "Pratham Agrawal <pratham@canonic.dev>",
+  "license": "0BSD",
+  "dependencies": {
+    "change-case": "^4.1.1",
+    "node-fetch": "^2.6.1",
+    "pluralize": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.0",
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "babel-preset-gatsby-package": "^0.5.3"
+  }
+}
