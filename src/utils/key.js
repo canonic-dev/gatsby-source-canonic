@@ -1,6 +1,10 @@
 const pluralize = require("pluralize");
 const changeCase = require("change-case");
 
+/**
+ * Helper class to convert strings from one format to another
+ * @constructor takes in the raw string to be processed
+ */
 class Key {
   constructor(key) {
     this.raw = key;
