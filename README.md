@@ -2,7 +2,6 @@
 
 A Gatsby source plugin to pull data from Canonic APIs. Once installed, your API can be queried from within Gatsby using GraphQL.
 
-<br/>
 
 ### Install
 
@@ -10,7 +9,6 @@ A Gatsby source plugin to pull data from Canonic APIs. Once installed, your API 
 yarn add gatsby-source-canonic
 ```
 
-<br/>
 
 ### Configureation
 
@@ -34,7 +32,6 @@ It's recommended to use [`dotenv`](https://docs.canonic.dev/recipes/creating-con
 
 > You can create an access token by visiting the settings page of your Canonic project. [Read More](https://docs.canonic.dev/recipes/creating-content-apis)
 
-<br/>
 
 ### Usage
 
