@@ -25,7 +25,10 @@ module.exports = {
     //...other plugins
     {
       resolve: 'gatsby-source-canonic',
-      apiKey: process.env.CANONIC_ACCESS_TOKEN
+      options: {
+        url: "YOUR_API_URL",
+        apiKey: process.env.CANONIC_ACCESS_TOKEN
+      }
     }
   ]
 }
