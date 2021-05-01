@@ -4,6 +4,7 @@ A Gatsby source plugin to pull data from Canonic APIs. Once installed, your API 
 
 ![Release](https://github.com/canonic-dev/gatsby-source-canonic/workflows/Release/badge.svg?branch=main)
 [![npm version](https://badge.fury.io/js/gatsby-source-canonic.svg)](https://www.npmjs.com/package/gatsby-source-canonic)
+[![Discord](https://img.shields.io/discord/765119429171609600?color=%237389D8&label=Discord&logo=discord&logoColor=%23FFF)](https://discord.gg/9dyytsM) 
 
 
 ### Install
@@ -59,3 +60,5 @@ Once the plugin is configured, you can query for Canonic data as you would from 
 > `TABLE_NAME` is the key for the table corresponding to Canonic. So if you created a table called `movies`, the query name would be `allMovie`
 
 You can read more on how to write more advanced queries [here](https://www.gatsbyjs.com/docs/graphql-reference/)
+
+#### Join the thriving 🌎 [Discord](https://discord.gg/9dyytsM) community to get help and share and brainstorm ideas.
